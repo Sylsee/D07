@@ -6,7 +6,7 @@
 /*   By: spoliart <spoliart@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/08 00:04:48 by spoliart          #+#    #+#             */
-/*   Updated: 2022/02/08 14:19:13 by spoliart         ###   ########.fr       */
+/*   Updated: 2022/03/11 00:50:53 by spoliart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,6 @@ int main(int, char**)
 			std::cout << "mirror: " << mirror[i] << std::endl;
 		}
 		std::cout << std::endl;
-		//SCOPE
 		{
 			Array<int> tmp = numbers;
 			Array<int> test(tmp);
